@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <title>zetech Youth Club | Login</title>
+</head>
+<link href="new.css" type="text/css" rel="stylesheet" />
+<!-- Internal CSS -->
+<style>
+    header img {
+        float: left;
+    }
+    
+    header h1 {
+        margin: 0px;
+        float: center;
+    }
+    
+    .l1 {
+        height: 425px;
+        width: 700px;
+        margin: auto;
+        font-size: 30px;
+    }
+    
+    #l2 {
+        height: 350px;
+    }
+    
+    input[type=text] {
+        margin-left: 20px;
+        width: 200px;
+        height: 30px;
+    }
+    
+    input[type=submit] {
+        height: 30px;
+        width: 100px;
+    }
+    
+    #l2 a {
+        border: 1px solid green;
+        background-color: green;
+        padding: 20px;
+        text-decoration: none;
+    }
+    
+    #errorMessage {
+        font-size: 10px;
+        color: red;
+    }
+</style>
+
+<body>
+    <div class="id">
+        <div class="header">
+            <header>
+                <a href="new.html">
+                    <!-- href is used for linking page address -->
+                    <img src="images/logo.png" width="100px"></a>
+                <font size="20" color="#abc">
+                    <h1> zetech Youth Club</h1>
+                </font>
+
+
+
+            </header>
+        </div>
+
+        <div class="list">
+            <table width="1080" border="1" border-color="lightblue" cellspacing="0" cellpadding="0">
+                <tr>
+                    <!-- Using tr and td with href in table as Navigation bar -->
+                    <td width="196" height="40" align="center" bgcolor="36013F"><span class="style7"><a href="new.html"><font color="#4EE2EC">Home</font></a></span></td>
+                    <td width="196" height="40" align="center" bgcolor="36013F"><span class="style7"><a href="about.html"><font color="#4EE2EC">About Us</font></a></span></td>
+                    <td width="196" height="40" align="center" bgcolor="36013F"><span class="style7"><a href="services.html"><font color="#4EE2EC">Our Services</font></a></span></td>
+                    <td width="196" height="40" align="center" bgcolor="36013F"><span class="style7"><a href="gallery.html"><font color="#4EE2EC">Photo Gallery</font></a></span></td>
+                    <td width="196" height="40" align="center" bgcolor="36013F"><span class="style7"><a href="contact.html"><font color="#4EE2E">Contact Us</font></a></span></td>
+                    <td width="196" height="40" align="center" bgcolor="36013F"><span class="style7"><a href="login.html"><font color="#4EE2EC">Login</font></a></span></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="l1">
+            <!-- Form is created for login section -->
+            <form id="form1" method="post">
+                <fieldset id="l2">
+                    <legend> Fill up details</legend>
+                    <label> Username: 
+					<input id="username" type="text" name="username">			
+				</label><br>
+                    <label> Password:&nbsp; 
+					<input id="password" type="text" name="password">			
+				</label><br />
+                    <br />
+                    <input type="button" value="Login" id="submit" onclick="validate()" />
+                    <br />
+                    <font color="red" size="4em"><label id="error"></label></font>
+                    <br /><br />
+                    <a href="signup.html">
+                        <font color="white"> Sign Up For Free!</font>
+                    </a>
+                </fieldset>
+            </form>
+        </div>
+        <!-- img is used to insert icon and href is linked on the icons in footer -->
+        <div class="footer">
+            <a target="_blank" href="https://www.facebook.com/"><img src="images/fb.png" width="30" height="30"></a>
+            <a target="_blank" href="https://www.twitter.com/"><img src="images/tw.png" width="30" height="30"></a>
+            <a target="_blank" href="https://www.viber.com/"><img src="images/vb.png" width="30" height="30"></a>
+            <a target="_blank" href="https://www.instagram.com/"><img src="images/in.png" width="30" height="30"></a>
+            <a target="_blank" href="https://www.youtube.com/"><img src="images/yu.png" width="30" height="30"></a>
+
+
+            <h5 id="fo" align="center">copyright @2022 zetech social club</h5>
+        </div>
+        <!-- JavaScript used in the recent page are listed below. Script is used for it -->
+        <script src="validation.js"></script>
+        <script src="footer.js"></script>
+</body>
+
+</html>
