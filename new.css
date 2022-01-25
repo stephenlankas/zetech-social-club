@@ -1,0 +1,94 @@
+/* "." is used for class assigned
+  "#" is used for id assined */
+.id{
+	width:1080px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+.header{
+	background-color:;
+	width:1078px;
+	height:100px;
+	border:1px solid black;
+	clear:both;
+	
+}
+.logo{
+	float:left;
+}
+.logo1{
+	float:left;
+	display:inline;
+	
+	background-image:url("images/fewa.jpg");
+	
+	
+}
+.header p{
+	display:inline;
+	
+	
+}
+
+.list{
+	float:left;
+	font-style:normal;
+	font-size:27px;
+	background-color:#efefef;
+	width:1080px;
+	height:40px;
+	text-decoration:none;
+}
+
+.list table tr td a{
+	display:inline;
+	text-decoration:none;
+}
+
+
+.sidebar{
+	float:left;
+	width:800px;
+	height:300px;
+	border:1px solid black;
+}
+.bar{
+	
+	float:left;
+	width:276px;
+	height:300px;
+	border:1px solid black;
+}
+.adv{
+	float:left;
+	width:1078px;
+	height:30px;
+	border:1px solid black;
+}
+/*
+.content{
+	float:left;
+	width:1078;
+	height:500;
+	border:1px solid black;
+}*/
+.footer{
+	float:left;
+	width:1078px;
+	height:100px;
+	border:0px solid black;
+	clear:both;
+	text-align:left;
+}
+.footer img{
+	margin:5px;
+}
+.s1{
+	height:400px;
+	width:500px;
+	float:left;
+	border:1px solid black;
+	margin:5px 5px 5px 22px;
+}
