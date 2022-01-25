@@ -13,3 +13,8 @@ its build using
 html
 css
 javascript
+homepage
+![Screenshot 2022-01-25 124447](https://user-images.githubusercontent.com/85170432/150952808-497eb19f-ee3d-4989-a01e-9b57ef036c17.JPG)
+
+![Screenshot 2022-01-25 124525](https://user-images.githubusercontent.com/85170432/150952842-eea9275f-8ba0-4b38-bdad-09d421f85c50.JPG)
+![Screenshot 2022-01-25 124611](https://user-images.githubusercontent.com/85170432/150952900-beb71ef2-9aef-4a2c-9344-165d2732f072.JPG)
